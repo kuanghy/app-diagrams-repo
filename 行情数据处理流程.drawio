@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T05:52:39.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="UErijLQh53re0XSN1ECv" version="13.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-18T07:17:37.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="2QvYlY2XCHdlslmDMSR4" version="13.7.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="2310" dy="2009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,46 +225,22 @@
         </mxCell>
         <mxCell id="8arNH5vf3MiWIjYZIo-4-73" value="写入历史 Tick 数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8arNH5vf3MiWIjYZIo-4-72">
           <mxGeometry x="-0.4858" y="-1" relative="1" as="geometry">
-            <mxPoint x="2.0700000000000003" y="47.69" as="offset" />
+            <mxPoint x="22.07" y="127.69" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-82" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="970" y="-250" width="155" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-80" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8arNH5vf3MiWIjYZIo-4-82">
-          <mxGeometry width="155" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-11" value="聚源数据" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="8arNH5vf3MiWIjYZIo-4-82">
-          <mxGeometry x="47.5" y="10" width="60" height="64.5" as="geometry" />
-        </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-79" value="&lt;b&gt;crawl_data&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="8arNH5vf3MiWIjYZIo-4-82">
-          <mxGeometry x="12.5" y="140" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-81" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="8arNH5vf3MiWIjYZIo-4-82">
-          <mxGeometry x="-0.4" y="20" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="77.5" y="98" as="sourcePoint" />
-            <mxPoint x="77.49999999999955" y="138" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-91" value="获取期权日行情" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8arNH5vf3MiWIjYZIo-4-81">
-          <mxGeometry x="-0.4147" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-85" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="8arNH5vf3MiWIjYZIo-4-10">
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-85" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-228" target="8arNH5vf3MiWIjYZIo-4-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1040" y="-60" as="sourcePoint" />
             <mxPoint x="990" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-86" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.452;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-80" target="8arNH5vf3MiWIjYZIo-4-13">
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-86" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-228" target="8arNH5vf3MiWIjYZIo-4-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1035" y="80" as="sourcePoint" />
+            <mxPoint x="1040.06" y="-70" as="sourcePoint" />
             <mxPoint x="950" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-89" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="8arNH5vf3MiWIjYZIo-4-38">
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-89" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-228" target="8arNH5vf3MiWIjYZIo-4-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1040" y="-60" as="sourcePoint" />
             <mxPoint x="673.6" y="214.50000000000045" as="targetPoint" />
@@ -273,7 +249,7 @@
         </mxCell>
         <mxCell id="8arNH5vf3MiWIjYZIo-4-90" value="写入期权日行情" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8arNH5vf3MiWIjYZIo-4-89">
           <mxGeometry x="-0.2171" y="-2" relative="1" as="geometry">
-            <mxPoint x="119.31" y="-61.16" as="offset" />
+            <mxPoint x="109.14" y="-106.75" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8arNH5vf3MiWIjYZIo-4-93" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -584,23 +560,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-175" value="盘后导出 Tick 数据到 CSV" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8arNH5vf3MiWIjYZIo-4-173">
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-175" value="盘后导出 Tick &lt;br&gt;数据到 CSV" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8arNH5vf3MiWIjYZIo-4-173">
           <mxGeometry x="0.4484" y="-1" relative="1" as="geometry">
-            <mxPoint x="-8.54" y="13.7" as="offset" />
+            <mxPoint x="203.91000000000003" y="2.6399999999999997" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-174" value="" style="curved=1;endArrow=classic;html=1;entryX=0;entryY=1;entryDx=2.9;entryDy=-2.9;exitX=0.667;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-177" target="8arNH5vf3MiWIjYZIo-4-30">
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-174" value="" style="curved=1;endArrow=classic;html=1;exitX=0.667;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-177" target="8arNH5vf3MiWIjYZIo-4-236">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="90" as="sourcePoint" />
-            <mxPoint x="370" y="40" as="targetPoint" />
+            <mxPoint x="490" y="20" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="408" />
+              <mxPoint x="460" y="30" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8arNH5vf3MiWIjYZIo-4-176" value="盘后读取天数据写入历史库&lt;br&gt;（仅部分品种）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8arNH5vf3MiWIjYZIo-4-174">
           <mxGeometry x="0.2518" y="-23" relative="1" as="geometry">
-            <mxPoint x="47.11000000000001" y="-13.219999999999995" as="offset" />
+            <mxPoint x="80.37" y="-55.669999999999995" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8arNH5vf3MiWIjYZIo-4-178" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8arNH5vf3MiWIjYZIo-4-177">
@@ -700,13 +676,64 @@
             <mxPoint x="1190" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8arNH5vf3MiWIjYZIo-4-220" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=1;exitDx=2.9;exitDy=-2.9;exitPerimeter=0;entryX=0.911;entryY=-0.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-30" target="8arNH5vf3MiWIjYZIo-4-39">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="-50" as="sourcePoint" />
-            <mxPoint x="610" as="targetPoint" />
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-229" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-11" target="8arNH5vf3MiWIjYZIo-4-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-234" value="获取期权日行情" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8arNH5vf3MiWIjYZIo-4-229">
+          <mxGeometry x="0.1631" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-11" value="聚源数据" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1314" y="-252.25" width="60" height="64.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-230" value="获取债券数据" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-222" target="8arNH5vf3MiWIjYZIo-4-227">
+          <mxGeometry x="-0.2308" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="610" y="-50" />
+              <mxPoint x="1270" y="-72" />
+              <mxPoint x="1270" y="-72" />
             </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-222" value="巨潮数据" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-104.5" width="60" height="64.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-227" value="&lt;b&gt;crawl_data&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="-92.25" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-228" value="&lt;b&gt;crawl_data&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="924.6" y="-240" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-233" value="写入债券日行情" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.634;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-227" target="8arNH5vf3MiWIjYZIo-4-10">
+          <mxGeometry x="-0.2079" y="-6" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="20" as="sourcePoint" />
+            <mxPoint x="1110" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="20" />
+              <mxPoint x="1100" y="90" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-236" value="&lt;b&gt;crawl_data&lt;/b&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="535" y="-110" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-238" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-236">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="10" as="sourcePoint" />
+            <mxPoint x="600" y="132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-240" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8arNH5vf3MiWIjYZIo-4-30" target="8arNH5vf3MiWIjYZIo-4-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="-210" as="sourcePoint" />
+            <mxPoint x="940" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8arNH5vf3MiWIjYZIo-4-241" value="盘前写入集合竞价" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8arNH5vf3MiWIjYZIo-4-240">
+          <mxGeometry x="0.2623" y="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
