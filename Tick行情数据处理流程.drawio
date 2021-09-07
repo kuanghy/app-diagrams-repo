@@ -1,1 +1,190 @@
-<mxfile host="app.diagrams.net" modified="2021-09-03T03:24:50.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.9" etag="7iEGQoZBi3ywNQPNE0G3" type="github"><diagram id="lozSy9KcZS25ucph_CaC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-07T06:05:35.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="2kuhyIQZZK3RHHHk2d-o" version="15.0.6" type="github">
+  <diagram id="lozSy9KcZS25ucph_CaC" name="第 1 页">
+    <mxGraphModel dx="1038" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-1" target="ZRNgiz8SglzVuqcVwcWA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-1" value="实时行情分发系统" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="111.6" y="183.57" width="56.8" height="101.43" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-2" value="行情快照日志" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.log_files;" vertex="1" parent="1">
+          <mxGeometry x="120" y="375" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-3" value="实时记录转发的行情" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/cad-database-presentation-spreadsheet-vector-fil-2/512/19-128.png" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-4" value="Redis 实时 Tick 行情" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="414" y="379" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="121" y="640" width="369" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-5" value="股票" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.local_disk;" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-14">
+          <mxGeometry width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-6" value="指数" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.local_disk;" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-14">
+          <mxGeometry x="79" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-7" value="基金" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.local_disk;" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-14">
+          <mxGeometry x="159" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-8" value="期货" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.local_disk;" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-14">
+          <mxGeometry x="242.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-9" value="期权" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.local_disk;" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-14">
+          <mxGeometry x="319" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-15" target="ZRNgiz8SglzVuqcVwcWA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-16" target="ZRNgiz8SglzVuqcVwcWA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-17" target="ZRNgiz8SglzVuqcVwcWA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-25" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-18" target="ZRNgiz8SglzVuqcVwcWA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-26" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-19" target="ZRNgiz8SglzVuqcVwcWA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="118" y="520" width="374" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/cad-database-presentation-spreadsheet-vector-fil-2/512/19-128.png" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-27">
+          <mxGeometry width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/cad-database-presentation-spreadsheet-vector-fil-2/512/19-128.png" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-27">
+          <mxGeometry x="79" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/cad-database-presentation-spreadsheet-vector-fil-2/512/19-128.png" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-27">
+          <mxGeometry x="159.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/cad-database-presentation-spreadsheet-vector-fil-2/512/19-128.png" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-27">
+          <mxGeometry x="243" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/cad-database-presentation-spreadsheet-vector-fil-2/512/19-128.png" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-27">
+          <mxGeometry x="319" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-28" value="jtpmarket_to_redis" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" vertex="1" parent="1">
+          <mxGeometry x="300" y="245" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-1" target="ZRNgiz8SglzVuqcVwcWA-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="260" as="sourcePoint" />
+            <mxPoint x="240" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-32" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-35" value="" style="endArrow=classic;html=1;entryX=0.393;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-2" target="ZRNgiz8SglzVuqcVwcWA-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="460" as="sourcePoint" />
+            <mxPoint x="120" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-36" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="500" as="sourcePoint" />
+            <mxPoint x="220" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-37" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-2" target="ZRNgiz8SglzVuqcVwcWA-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="480" as="sourcePoint" />
+            <mxPoint x="270" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-38" value="2" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.592;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-4" target="ZRNgiz8SglzVuqcVwcWA-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-39" value="" style="endArrow=classic;html=1;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-4" target="ZRNgiz8SglzVuqcVwcWA-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="sourcePoint" />
+            <mxPoint x="430" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-47" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRNgiz8SglzVuqcVwcWA-39">
+          <mxGeometry x="-0.2455" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-40" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZRNgiz8SglzVuqcVwcWA-1" target="ZRNgiz8SglzVuqcVwcWA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="340" as="sourcePoint" />
+            <mxPoint x="270" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-41" value="3" style="endArrow=classic;html=1;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="383" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-42" value="3" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1" target="ZRNgiz8SglzVuqcVwcWA-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="400" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-43" value="" style="curved=1;endArrow=classic;html=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="464" y="400" as="sourcePoint" />
+            <mxPoint x="490" y="665" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="410" />
+              <mxPoint x="550" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-45" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRNgiz8SglzVuqcVwcWA-43">
+          <mxGeometry x="0.3827" y="-3" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-44" value="" style="curved=1;endArrow=classic;html=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" target="ZRNgiz8SglzVuqcVwcWA-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="464" y="400" as="sourcePoint" />
+            <mxPoint x="610" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="410" />
+              <mxPoint x="560" y="580" />
+              <mxPoint x="480" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-46" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRNgiz8SglzVuqcVwcWA-44">
+          <mxGeometry x="-0.1574" y="-7" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-48" value="&lt;b&gt;股票、指数、基金：&lt;/b&gt;每日盘后先从实时行情转发系统记录的行情快照日志导出行情为 csv 数据，然后再从 csv 中读出数据生成 bcolz 数据&lt;br&gt;&lt;br&gt;&lt;b&gt;期货、期权：&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;每日盘后先直接从 Redis 中读取数据生成 bcolz 数据（已挪到 tr-data02 机器运行）&lt;/li&gt;&lt;li&gt;同时也将 Redis 中的数据导出 csv 中（用于合成分钟数据）&lt;/li&gt;&lt;li&gt;凌晨会用行情转发系统记录的 csv 数据与从 Redis 中导出的 csv 数据进行比较，发现有差异时则用行情转发系统记录的 csv 替换&lt;/li&gt;&lt;li&gt;用替换后的 csv 数据重新生成一遍 bcolz 数据&lt;/li&gt;&lt;/ol&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="200" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-49" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="490" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-50" value="存储在 NAS 中的 &lt;br&gt;Bcolz Tick 数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-49">
+          <mxGeometry x="-5" y="50" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-51" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="500" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-52" value="单标的存储的&lt;br&gt;行情备份数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="525" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
