@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T06:05:35.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="2kuhyIQZZK3RHHHk2d-o" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T06:07:19.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="HesA6kRKhck3JkgYJrd5" version="15.0.6" type="github">
   <diagram id="lozSy9KcZS25ucph_CaC" name="第 1 页">
     <mxGraphModel dx="1038" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,13 +176,16 @@
           <mxGeometry x="20" y="620" width="490" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZRNgiz8SglzVuqcVwcWA-50" value="存储在 NAS 中的 &lt;br&gt;Bcolz Tick 数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-49">
-          <mxGeometry x="-5" y="50" width="110" height="30" as="geometry" />
+          <mxGeometry x="-5" y="40" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZRNgiz8SglzVuqcVwcWA-51" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="500" width="470" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZRNgiz8SglzVuqcVwcWA-52" value="单标的存储的&lt;br&gt;行情备份数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="25" y="525" width="90" height="30" as="geometry" />
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-52" value="单标的存储的&lt;br&gt;行情备份数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZRNgiz8SglzVuqcVwcWA-51">
+          <mxGeometry x="5" y="32.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRNgiz8SglzVuqcVwcWA-53" value="Tick 数据处理流程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="183.57" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
