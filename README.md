@@ -1,4 +1,4 @@
 Diagrams Repository
 ========
 
-Store app.diagrams.net diagrams
+Store [app.diagrams.net](https://app.diagrams.net/) diagrams
