@@ -1,20 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T07:40:42.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="RgQxyjJ8bQ7Aao_KhMEx" version="13.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-13T07:01:55.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="CZGwWr2ZXmDKrG67xxWb" version="21.0.6" type="github">
   <diagram id="UiQfDzBn7at2XcCDfYlz" name="第 1 页">
-    <mxGraphModel dx="1038" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jp5wXKzFEextffAn80V3-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="jp5wXKzFEextffAn80V3-55">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="160" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jp5wXKzFEextffAn80V3-55" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="200" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="jp5wXKzFEextffAn80V3-58" value="巨潮数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="120" width="100" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
