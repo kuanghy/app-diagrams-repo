@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T07:01:55.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="CZGwWr2ZXmDKrG67xxWb" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-13T07:26:48.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="hcVboCFa33Ov-qJzyvnQ" version="21.0.6" type="github">
   <diagram id="UiQfDzBn7at2XcCDfYlz" name="第 1 页">
     <mxGraphModel dx="1050" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="280" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ld0v2mLa0dWkkSjtZ8-k-2" source="Ld0v2mLa0dWkkSjtZ8-k-4" target="Ld0v2mLa0dWkkSjtZ8-k-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-4" value="Server" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="Ld0v2mLa0dWkkSjtZ8-k-2">
+          <mxGeometry x="30" y="24" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-5" value="data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Ld0v2mLa0dWkkSjtZ8-k-2">
+          <mxGeometry x="155" y="300" width="50" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-10" value="有权限" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ld0v2mLa0dWkkSjtZ8-k-2" source="Ld0v2mLa0dWkkSjtZ8-k-6" target="Ld0v2mLa0dWkkSjtZ8-k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-6" value="验证权限" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ld0v2mLa0dWkkSjtZ8-k-2">
+          <mxGeometry x="140" y="9" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ld0v2mLa0dWkkSjtZ8-k-2" source="Ld0v2mLa0dWkkSjtZ8-k-9" target="Ld0v2mLa0dWkkSjtZ8-k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-9" value="jqdata apis&lt;br&gt;quanxi_utils&lt;br&gt;level1_utils&lt;br&gt;level2_utlis&lt;br&gt;......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ld0v2mLa0dWkkSjtZ8-k-2">
+          <mxGeometry x="120" y="160" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-3" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="270" width="310" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Ld0v2mLa0dWkkSjtZ8-k-3" source="Ld0v2mLa0dWkkSjtZ8-k-1" target="Ld0v2mLa0dWkkSjtZ8-k-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-1" value="User" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="Ld0v2mLa0dWkkSjtZ8-k-3">
+          <mxGeometry x="20" y="25.5" width="50" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-23" value="有权限" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Ld0v2mLa0dWkkSjtZ8-k-3" source="Ld0v2mLa0dWkkSjtZ8-k-14" target="Ld0v2mLa0dWkkSjtZ8-k-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-14" value="验证权限" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Ld0v2mLa0dWkkSjtZ8-k-3">
+          <mxGeometry x="120" y="80" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ld0v2mLa0dWkkSjtZ8-k-3" source="Ld0v2mLa0dWkkSjtZ8-k-18" target="Ld0v2mLa0dWkkSjtZ8-k-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-18" value="打包加密的：&lt;br&gt;jqdata apis&lt;br&gt;quanxi_utils&lt;br&gt;level1_utils&lt;br&gt;level2_utlis&lt;br&gt;......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ld0v2mLa0dWkkSjtZ8-k-3">
+          <mxGeometry x="105" y="200" width="120" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-19" value="data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Ld0v2mLa0dWkkSjtZ8-k-3">
+          <mxGeometry x="140" y="330" width="50" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ld0v2mLa0dWkkSjtZ8-k-1" target="Ld0v2mLa0dWkkSjtZ8-k-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ld0v2mLa0dWkkSjtZ8-k-14" target="Ld0v2mLa0dWkkSjtZ8-k-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ld0v2mLa0dWkkSjtZ8-k-17" value="远程请求权限" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ld0v2mLa0dWkkSjtZ8-k-16">
+          <mxGeometry x="-0.6855" y="-1" relative="1" as="geometry">
+            <mxPoint x="7" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
